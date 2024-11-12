@@ -86,4 +86,4 @@ Optimized for the FMCG sector, this tool addresses high transaction volumes and 
 
 ## Demo Video
 
-[Demo Video Link Here - Once Available]
+https://github.com/user-attachments/assets/2e8557b4-46e0-4c6a-90cb-2a190913a123
