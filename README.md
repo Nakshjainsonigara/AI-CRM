@@ -40,6 +40,9 @@ Optimized for the FMCG sector, this tool addresses high transaction volumes and 
    - The lead scoring system classifies potential leads into high, medium, and low-priority groups.
    - Each group receives a customized email campaign aimed at increasing conversion rates and engagement
 
+### 8. RAG Chatbot for Customer Support and Insights
+- Retrieves relevant data from a database, analyzes customer queries using NLP, and generates context-aware responses.
+- Provides real-time, informative answers, improving customer support and decision-making based on dynamic data insights.
 ---
 
 ## Key Performance Indicators (KPIs) and Metrics
