@@ -82,7 +82,7 @@ Optimized for the FMCG sector, this tool addresses high transaction volumes and 
 
 ### Frontend
 
-- **HTML/CSS/JavaScript**: User interface for insights and dashboard.
+- **React**: User interface for insights and dashboard.
 - **D3.js**: Data visualization for dynamic and interactive dashboards.
 
 ---
