@@ -2,15 +2,7 @@ from pymongo import MongoClient
 import pandas as pd
 from textblob import TextBlob
 
-# Step 1: Connect to MongoDB
-client = MongoClient("<your_mongo_connection_string>")
-db = client["<your_database>"]
-collection = db["<your_feedback_collection>"]  # Replace with your feedback collection name
-
-# Step 2: Load feedback data into a DataFrame
-data = pd.DataFrame(list(collection.find({}, {"Customer ID": 1, "Feedback": 1})))
-
-# Step 3: Define a function to analyze sentiment
+# Step 1: Define a function to analyze sentiment
 def analyze_sentiment(feedback):
     analysis = TextBlob(feedback)
     # Classify the sentiment
@@ -31,8 +23,6 @@ feedback_analysis.columns = ['Sentiment', 'Count']
 # Print the analysis result
 print(feedback_analysis)
 
-# Optional: Save the analysis to a new collection in MongoDB
-# db["<your_analysis_collection>"].insert_many(data.to_dict('records'))
 import matplotlib.pyplot as plt
 import seaborn as sns
 
